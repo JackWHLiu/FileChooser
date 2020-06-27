@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40.0dip"
+    android:background="@color/theme_color">
+
+    <TextView
+        android:id="@+id/tv_titlebar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12.0dip"
+        android:textColor="@color/text_color_gray"
+        android:textSize="15.0sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="我的文件"
+        android:textColor="@color/text_color_gray"
+        android:textSize="20.0sp" />
+
+    <TextView
+        android:id="@+id/tv_titlebar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12.0dip"
+        android:textColor="@color/text_color_gray"
+        android:textSize="15.0sp" />
+</RelativeLayout>
